@@ -1,0 +1,377 @@
+:root
+{
+    --blueColor:#0075ff;
+    --blue-alt-Color:#0d69d5;
+    --orangeColor:#f59e0b;
+    --greenColor:#22c55e;
+    --redColor:#f44336;
+    --grayColor:#888;
+}
+/* Start Box  */
+.d-flex
+{
+    display: flex;
+}
+.f-wrap
+{
+    flex-wrap: wrap;
+}
+.d-grid
+{
+    display: grid;
+}
+.d-block
+{
+    display: block;
+}
+.gap-20
+{
+    gap: 20px;
+}
+.algin-items-center
+{
+align-items: center;
+
+}
+@media(max-width:767px)
+{
+    .block-mobile
+    {
+        display: block;
+    }
+    .hide-mobile
+    {
+        display: none;
+    }
+}
+/* End  Box  */
+
+/* Start Padding + margin */
+
+.p-5
+{
+    padding: 5px;
+}
+.p-10
+{
+    padding: 10px;
+}
+.p-15
+{
+    padding: 15px;
+}
+.p-20
+{
+    padding: 20px;
+}
+.p-25
+{
+    padding: 25px;
+}
+.pt-5
+{
+    padding: 5px;
+}
+.pt-10
+{
+    padding: 10px;
+}
+.pt-15
+{
+    padding-top: 15px;
+}
+.ps-10
+{
+    padding-left: 10px;
+}
+.pb-5
+{
+    padding-bottom: 5px;
+}
+.pb-10
+{
+    padding-bottom: 10px;
+}
+.pb-15
+{
+    padding-bottom: 15px;
+}
+.m-0
+{
+    margin: 0;
+}
+.m-5
+{
+    margin: 5px;
+}
+.m-10
+{
+    margin: 10px;
+}
+.m-15
+{
+    margin: 15px;
+}
+.m-20
+{
+    margin: 20px;
+}
+.mt-0
+{
+    margin-top: 0;
+}
+.mt-5
+{
+    margin-top: 5px;
+}
+.mt-10
+{
+    margin-top: 10px;
+}
+.mt-15
+{
+    margin-top: 15px;
+}
+.mt-20
+{
+    margin-top: 20px;
+}
+.mt-25
+{
+    margin-top: 25px;
+}
+.me-5
+{
+margin-right: 5px;
+}
+.me-10
+{
+margin-right: 10px;
+}
+.me-15
+{
+margin-right: 15px;
+}
+.me-20
+{
+margin-right: 20px;
+}
+.mb-5
+{
+    margin-bottom: 5px;
+}
+.mb-10
+{
+    margin-bottom: 10px;
+}
+.mb-15
+{
+    margin-bottom: 15px;
+}
+.mb-20
+{
+    margin-bottom: 20px;
+}
+.mb-25
+{
+    margin-bottom: 25px;
+}
+.ms-15
+{
+    margin-left: 15px;
+}
+/* End Padding + margin */
+
+/* Start color */
+.bg-white
+{
+    background-color: white;
+}
+.bg-eee
+{
+    background-color: #eee;
+}
+.bg-blue
+{
+    background-color: var(--blueColor);
+}
+.bg-orange
+{
+    background-color: var(--orangeColor);
+
+}
+.bg-green
+{
+    background-color: var(--greenColor);
+}
+.bg-red
+{
+    background-color: var(--redColor);
+}
+.text-black
+{
+    color: black;
+}
+.color-gray
+{
+    color:var(--grayColor);
+}
+.color-white
+{
+    color:white;
+}
+.color-orange
+{
+    color: var(--orangeColor);
+}
+.color-black
+{
+    color: black;
+}
+.color-blue
+{
+    color: var(--blueColor);
+}
+.color-green
+{
+    color: var(--greenColor);
+}
+.color-red
+{
+    color: var(--redColor);
+}
+/* End color */
+
+/* Start Position  */
+.list-none
+{
+    list-style-type: none;
+}
+
+.position-relative
+{
+    position: relative;
+}
+.position-absolute
+{
+    position: absolute;
+}
+.width-full
+{
+    width: 100%;
+}
+.width-fit
+{
+    width: fit-content;
+}
+.height-full
+{
+    height: 100%;
+}
+.width-100
+{
+    width: 100px;
+}
+.height-100
+{
+    height: 100px;
+}
+/* End Position  */
+
+/* Start Font */
+.text-center
+{
+    text-align: center;
+}
+.fs-25
+{
+    font-size: 25px;
+}
+.fs-11
+{
+    font-size: 11px;
+}
+.fs-12
+{
+    font-size: 12px;
+}
+.fs-13
+{
+    font-size: 13px;
+}
+.fs-14
+{
+    font-size: 14px;
+}
+.fs-15
+{
+    font-size: 15px;
+}
+.font-weight-bold
+{
+    font-weight: bold;
+}
+@media(max-width:767px)
+{
+    .text-center-mobile
+    {
+        text-align: center;
+    }
+}
+/* End Font */
+
+/* Start Border */
+.rad-6
+{
+    border-radius: 6px;
+}
+.rad-10
+{
+    border-radius: 10px;
+}
+.rad-half
+{
+    border-radius: 50%;
+}
+.border-none
+{
+    border: none;
+}
+.border
+{
+    border :1px soild #ccc;
+}
+.border-ccc
+{
+    border: 1px solid #eee;
+
+}
+.border-eee
+{
+    border: 1px solid #eee;
+}
+/* End Border */
+/* Start Component */
+.center-flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.between-flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-between
+{
+    justify-content: space-between;
+}
+.btn-shape
+{
+    padding: 4px 10px ;
+    border-radius: 6px;
+}
+
+/* End Component */
